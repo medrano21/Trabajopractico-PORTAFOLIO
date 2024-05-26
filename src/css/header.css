@@ -1,0 +1,37 @@
+.header{
+    background: linear-gradient(to bottom, #3700ff,#b71fd1,#ff7023ba, #5d00ff00); /* Cambia los colores según tus preferencias */
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 500px;
+}
+.titulo{
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 270px;
+    position:absolute;
+    top: 50px;
+    left: 150px;
+    right: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 170px;
+}
+.perfil{
+    width: 400px;
+    margin-right: 300px;
+    margin-left:55px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    position: absolute;
+    top: 0px;
+    left: 850px;
+}

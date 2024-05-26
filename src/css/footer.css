@@ -1,0 +1,53 @@
+.footer{
+    background: linear-gradient(to top, #3700ff,#b71fd1,#ff7023ba, #5d00ff00); 
+    top: 500px;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    bottom: 0px;
+    right: 100px;
+    margin-right: 80px;
+    margin-left: 6px;
+    margin-bottom: 5100px;
+    margin-top: 400px;
+    color: white;
+}
+.icon {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que se vea bien dentro del contenedor */
+}
+
+/* Estilos cuando el cursor pasa por encima del enlace */
+.boton:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del icono al pasar el cursor */
+}
+
+.redes{
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 75px;
+    margin-top: 1000px;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.boton {
+    display: inline-block; /* Mostrar como elemento en línea */
+    width: 80px;
+    height: 100%; 
+    line-height: 25px; /* Alineación vertical del texto */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambiar cursor a puntero */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilos cuando el cursor pasa por encima del botón */
+.boton:hover {
+    background-color: #d9ff00; /* Nuevo color de fondo al pasar el cursor */
+}

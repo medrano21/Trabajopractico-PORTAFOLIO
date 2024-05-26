@@ -1,0 +1,62 @@
+.educacion{
+    width: 850px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    margin-top: 840px;
+    font-size: 30px;
+}
+.presentacion{
+    width: 900px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.habilidades{
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 20px;
+    width: 500px;
+}
+.texto{
+    text-align: center;
+    margin-left: 100px;
+    width: 700px;
+    position: relative;
+    animation: moveText 3s infinite alternate;
+
+}
+.icono{
+    height: 70px;
+}
+.iconocompu{
+    height: 300px;
+    width: 300px;
+    margin-right: 0px;
+    margin-left:150px;
+    margin-bottom: 0px;
+    margin-top: 820px;
+    border-radius: 100%;
+    box-shadow: 0 0 40px rgba(191, 119, 12, 0.78);
+    position: relative;
+    animation: moveText 3s infinite alternate;
+}
+@keyframes moveText {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 30px;
+    }
+    100% {
+      top: 0;
+    }
+}
+  
